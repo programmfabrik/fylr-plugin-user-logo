@@ -1,0 +1,18 @@
+plugin:
+  name: user-logo
+  version: 2.0
+  url: https://github.com/programmfabrik/fylr-plugin-user-logo
+  displayname:
+    de-DE: User-Logo
+    en-US: User Logo
+  info:
+    de-DE: Ersetzt das Profilbild durch ein nutzerspezifisches Logo und stellt die Möglichkeit bereit das im PDF-Creator zu verwenden.
+    en-US: Replaces the profile picture with a user-specific logo and provides the option to use it in the PDF creator.    
+  l10n: l10n/userLogo.csv
+  webfrontend:
+    url: userLogo.js
+    css: userLogo.css
+    dependencies:
+      - pdf-creator
+      
+base_url_prefix: "webfrontend"

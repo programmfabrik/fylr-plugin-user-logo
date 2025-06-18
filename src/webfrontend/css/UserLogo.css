@@ -1,0 +1,17 @@
+/* hide user logo in useredit-dialog */
+.cui-modal .cui-form-field-name--picture {
+  display: none !important;
+}
+
+/* hide user logo in layout top menu */
+.ez5-root-layout-top .ez-config-logo .ez-logo {
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+  display: none;
+}
+
+/* show user logo in top menu */
+.ez5-root-layout-top .ez-config-logo .ez-logo.user-logo-visible {
+  opacity: 1;
+  display: block;
+}
