@@ -15,7 +15,6 @@ build: clean buildinfojson ## clean, compile, copy files to build folder
 			mkdir -p build
 			mkdir -p build/$(PLUGIN_NAME)
 			mkdir -p build/$(PLUGIN_NAME)/webfrontend
-			mkdir -p build/$(PLUGIN_NAME)/updater
 			mkdir -p build/$(PLUGIN_NAME)/l10n
 
 			cp build-info.json build/$(PLUGIN_NAME)/build-info.json # build-info
