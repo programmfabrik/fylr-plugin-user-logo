@@ -32,6 +32,6 @@ class ez5.UserLogoPdfCreatorNode extends ez5.PdfCreator.Node
         return fields
 
     __getStyleSettings: ->
-        return ["background", "width", "height", "border", "position-absolute", "display", "top", "left", "right", "bottom", "margin-top", "margin-left", "margin-right", "margin-bottom", "padding-top", "padding-left", "padding-right", "padding-bottom"]
+        return ["class-name", "background", "width", "height", "border", "position-absolute", "display", "top", "left", "right", "bottom", "margin-top", "margin-left", "margin-right", "margin-bottom", "padding-top", "padding-left", "padding-right", "padding-bottom"]
 
 ez5.PdfCreator.plugins.registerPlugin(ez5.UserLogoPdfCreatorNode)
